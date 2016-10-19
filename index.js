@@ -63,7 +63,6 @@ function total(){
       }
     }
   }
-
 return sum
 }
 
@@ -79,11 +78,7 @@ function removeFromCart(itemName){
   if (!found){
     console.log("That item is not in your cart.")
   }
-
 }
-
-
-// removeFromCart("cheese")
 
 
 function placeOrder(creditCardNumber){
